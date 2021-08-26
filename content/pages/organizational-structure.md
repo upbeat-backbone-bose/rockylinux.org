@@ -34,7 +34,21 @@ For any team that does not have a deputy, or where someone is the lead for multi
 
 If there are any concerns with this structure, we have an open door perspective and wish to encourage feedback, both to the individual team leads, as well as directly to the RESF leadership team.
 
-![Screenshot from 2021-02-21 18-16-49|626x392, 100%](https://aws1.discourse-cdn.com/standard14/uploads/rockylinux/original/1X/12ce49ceeb7901faebc7eb0e35b5cfef7c9e8144.png)
+| Team                        | Lead                             |
+| --------------------------- | -------------------------------- |
+| **Leadership**              | Gregory Kurtzer, R. Leigh Hennig |
+| **Autobuilder**             | Louis Abel                       |
+| **Community**               | Jordan Pisanello                 |
+| **Design**                  | Hayden Young                     |
+| **Documentation**           | Wale Soyinka                     |
+| **Infrastructure**          | Neil Hanlon, Taylor Goodwill     |
+| **Installer**               | Louis Abel                       |
+| **Packaging**               | Louis Abel                       |
+| **Project Management**      | Brian Clemens                    |
+| **Security**                | Rob Felsberg, Benjamin Agner     |
+| **Special Interest Groups** | R. Leigh Hennig                  |
+| **Testing**                 | Trevor Cooper, Chris Stackpole   |
+| **Web**                     | Hayden Young                     |
 
 #### Leadership
 
@@ -117,7 +131,7 @@ The Web team maintains and develops all of the websites under the RESF purview.
 
 #### Testing
 
-The Web team maintains and develops all of the websites under the RESF purview.
+The Testing team maintains and develops all of the continuous integration efforts of the RESF.
 
 - Team Lead: Trevor Cooper
 - Team Co-lead: Chris Stackpole (Stack)

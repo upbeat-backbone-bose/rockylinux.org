@@ -6,13 +6,14 @@ import SEO from '../components/seo';
 import Header from '../components/header';
 import Footer from '../components/footer';
 
-import OpenDrivesLogo from '../images/opendrives.png';
 import CIQLogo from '../images/ciq-alt.png';
-import AwsLogo from '../images/aws-alt.png';
 import FortyFiveDrivesLogo from '../images/45drives.jpg';
-import MontaVistaLogo from '../images/montavista.png';
+import AwsLogo from '../images/aws-alt.png';
 import GoogleCloudLogo from '../images/google-cloud-alt.png';
 import MicrosoftAzureLogo from '../images/azure-alt.png';
+import MontaVistaLogo from '../images/montavista.png';
+import OpenDrivesLogo from '../images/opendrives.png';
+import SeagateFederalLogo from '../images/seagate-federal.png';
 
 const Sponsors = ({ data, pageContext: { locale: language } }) => {
   const translate = Translate('sponsors');
@@ -110,59 +111,6 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <span className="rounded-lg inline-flex p-3">
                   <img
                     className="object-cover w-full rounded-lg"
-                    src={OpenDrivesLogo}
-                    alt="OpenDrives"
-                  />
-                </span>
-              </div>
-              <div className="mt-8">
-                <h3 className="text-lg font-medium text-gray-50">
-                  <a
-                    href="https://opendrives.com/"
-                    className="focus:outline-none"
-                  >
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    {translate('sponsors.2.name')}
-                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.2.grade')}
-                    </span>
-                  </a>
-                </h3>
-                <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.2.description')}
-                </p>
-              </div>
-            </div>
-            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
-              <div>
-                <span className="rounded-lg inline-flex p-3">
-                  <img
-                    className="object-cover w-full rounded-lg"
-                    src={MontaVistaLogo}
-                    alt="MontaVista"
-                  />
-                </span>
-              </div>
-              <div className="mt-8">
-                <h3 className="text-lg font-medium text-gray-50">
-                  <a href="https://mvista.com/" className="focus:outline-none">
-                    <span className="absolute inset-0" aria-hidden="true" />
-                    {translate('sponsors.3.name')}
-                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
-                      {translate('sponsors.3.grade')}
-                    </span>
-                  </a>
-                </h3>
-                <p className="mt-2 text-sm text-gray-200">
-                  {translate('sponsors.3.description')}
-                </p>
-              </div>
-            </div>
-            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
-              <div>
-                <span className="rounded-lg inline-flex p-3">
-                  <img
-                    className="object-cover w-full rounded-lg"
                     src={AwsLogo}
                     alt="Amazon Web Services"
                   />
@@ -240,6 +188,75 @@ const Sponsors = ({ data, pageContext: { locale: language } }) => {
                 <p className="mt-2 text-sm text-gray-200">
                   {translate('sponsors.6.description')}
                 </p>
+              </div>
+            </div>
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                  <img
+                    className="object-cover w-full rounded-lg"
+                    src={MontaVistaLogo}
+                    alt="MontaVista"
+                  />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a href="https://mvista.com/" className="focus:outline-none">
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    {translate('sponsors.3.name')}
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      {translate('sponsors.3.grade')}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {translate('sponsors.3.description')}
+                </p>
+              </div>
+            </div>
+            <div className="relative group bg-gray-500 dark:bg-gray-800 p-6 focus-within:ring-2 focus-within:ring-inset focus-within:ring-green-500">
+              <div>
+                <span className="rounded-lg inline-flex p-3">
+                  <img
+                    className="object-cover w-full rounded-lg"
+                    src={OpenDrivesLogo}
+                    alt="OpenDrives"
+                  />
+                </span>
+              </div>
+              <div className="mt-8">
+                <h3 className="text-lg font-medium text-gray-50">
+                  <a
+                    href="https://opendrives.com/"
+                    className="focus:outline-none"
+                  >
+                    <span className="absolute inset-0" aria-hidden="true" />
+                    {translate('sponsors.2.name')}
+                    <span className="ml-2 bg-green-700 text-green-100 py-1 px-2 text-xs rounded-full self-center">
+                      {translate('sponsors.2.grade')}
+                    </span>
+                  </a>
+                </h3>
+                <p className="mt-2 text-sm text-gray-200">
+                  {translate('sponsors.2.description')}
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="px-4 mx-auto my-5 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 mb-6">
+            <div className="sm:flex flex-wrap justify-center items-center text-center gap-8">
+              <div className="w-full mt-2 sm:w-1/2 md:w-1/2 lg:w-1/4 px-4 py-4 bg-gray-500 shadow-lg rounded-lg dark:bg-gray-800">
+                <a
+                  href="https://www.seagategov.com"
+                  aria-label="Seagate Federal"
+                >
+                  <img
+                    className="object-cover w-full"
+                    src={SeagateFederalLogo}
+                    alt="Seagate Federal"
+                  />
+                </a>
               </div>
             </div>
           </div>
